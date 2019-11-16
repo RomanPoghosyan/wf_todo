@@ -1,0 +1,33 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(142,221,216,1) 89%, rgba(0,212,255,1) 100%);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: initial;
+}
+
+#container {
+    margin-top: 200px;
+}
+
+.remove {
+    float: right;
+}
+
+#button {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.tasks {
+    color: #22334e;
+}
+
+.lineThrough {
+    text-decoration: line-through;
+}

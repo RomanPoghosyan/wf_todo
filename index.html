@@ -3,17 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link href="style.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet"/>
 </head>
 <body>
-    <div>
-        <input id="add" type="text"/>
-        <button id="button">Add</button>
-    </div>
-    <div>
-        <ul id="tasks">
+    <div id="container">
+        <div class="input-group mb-3">
+            <input id="add" type="text" class="form-control" placeholder="Enter TODO" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <div class="input-group-append">
+                <button id="button" class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+            </div>
+        </div>
+        <div>
+            <div id="tasks">
 
-        </ul>
+            </div>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
