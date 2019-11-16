@@ -13,7 +13,7 @@ function addTask(){
 function clickHendler(event){
     if(event.target.className == "body"){
 
-    }elseif(event.target.className == "remove"){
+    }else if(event.target.className == "remove"){
 
     }
     console.log(event.target.className);
